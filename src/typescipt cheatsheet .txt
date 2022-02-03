@@ -1,0 +1,27 @@
+Tupels in ts 
+let roles:[number,string] 
+//it can only contain two variables one  number and one string
+roles = [5,'rahul']
+
+//types 
+type Person = {
+    name:string;
+    age:number;
+}
+//creating objects with the Person type
+type person:Person = {
+    name:'Rahul',
+    age:210
+}
+
+//function type
+let printName = Function;
+or 
+let printName = (name:string) => void 
+
+
+//interface
+interface Person{
+    name:string,
+    age?:number
+}

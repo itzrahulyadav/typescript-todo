@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# notes file
+typescipt cheatsheet.txt
+
 # production
 /build
 
